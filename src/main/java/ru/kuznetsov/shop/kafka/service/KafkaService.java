@@ -20,7 +20,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class KafkaService {
 
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper;
     private final KafkaTemplate<String, String> kafkaTemplate;
 
     Logger logger = LoggerFactory.getLogger(KafkaService.class);
