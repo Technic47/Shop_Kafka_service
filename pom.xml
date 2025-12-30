@@ -6,11 +6,11 @@
     <parent>
         <groupId>io.github.technic47</groupId>
         <artifactId>shop-spring-boot-starter</artifactId>
-        <version>1.0.32</version>
+        <version>1.0.33</version>
     </parent>
 
     <artifactId>kafka-service</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <name>kafka-service</name>
     <description>kafka-service</description>
